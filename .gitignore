@@ -9,5 +9,5 @@ venv/
 .DS_Store
 
 # Optional: uncomment to keep repo small (no PDFs)
-# input/*.pdf
-# output/*.pdf
+input/*.pdf
+output/*.pdf
