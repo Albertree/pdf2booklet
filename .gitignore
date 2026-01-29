@@ -8,8 +8,8 @@ venv/
 # macOS
 .DS_Store
 
-# PDFs in input/output (dummy is tracked so folders exist on clone)
+# PDFs in input/output (example.pdf is tracked so folders exist on clone)
 input/*.pdf
-!input/dummy.pdf
+!input/example.pdf
 output/*.pdf
-!output/dummy_booklet.pdf
+!output/example_booklet.pdf

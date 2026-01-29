@@ -4,7 +4,7 @@ Reorder a PDF for booklet printing (2 pages per sheet, double-sided). Fold the s
 
 **Usage**
 
-1. Put PDFs in `input/` (repo includes `input/dummy.pdf` so the folders exist after clone)
+1. Put PDFs in `input/` (repo includes `input/example.pdf` so the folders exist after clone)
 2. Run: `python pdf2booklet.py`
 3. Pick a file with arrow keys + Enter
 4. Get `output/<name>_booklet.pdf`
