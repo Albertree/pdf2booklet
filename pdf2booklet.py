@@ -97,6 +97,8 @@ def select_input() -> Path | None:
 
 
 def main() -> None:
+    INPUT_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     inp = select_input()
     if inp is None:
         sys.exit(1)
