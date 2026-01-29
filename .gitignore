@@ -8,6 +8,8 @@ venv/
 # macOS
 .DS_Store
 
-# Optional: uncomment to keep repo small (no PDFs)
+# PDFs in input/output (dummy samples are tracked so folders exist on clone)
 input/*.pdf
+!input/sample.pdf
 output/*.pdf
+!output/sample_booklet.pdf
