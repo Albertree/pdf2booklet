@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Reorder PDF for booklet print. Pick from input/ → save to output/."""
 
 import sys
